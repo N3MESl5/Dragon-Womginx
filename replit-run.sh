@@ -24,7 +24,7 @@ cd replit-nginx-temp
 ../docker-sed.sh
 
 # replace with appropriate public dir path
-sed -i "s/\/opt\/womginx\/public/$ESCAPED_DIR\/public/g" nginx.conf
+sed -i "s/\/opt\/Dragon-Womginx\/public/$ESCAPED_DIR\/public/g" nginx.conf
 
 # add missing mime.types
 curl https://raw.githubusercontent.com/nginx/nginx/master/conf/mime.types -o mime.types
